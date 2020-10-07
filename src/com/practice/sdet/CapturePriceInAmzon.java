@@ -17,7 +17,7 @@ public class CapturePriceInAmzon {
 		String price=driver.findElement(By.xpath(x)).getText();
 		System.out.println("Price of product is:"+price);
 			
-		
+		System.out.println("Done----");
 		
 
 	}
